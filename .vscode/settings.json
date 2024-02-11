@@ -1,0 +1,525 @@
+{
+	"eslint.validate": ["javascript", "svelte"],
+	"cSpell.enabled": false,
+	"editor.wordSeparators": "`~!@#%^&*()-=+[{]}\\|;:'\",.<>/?",
+	"todohighlight.keywords": [
+		{
+			"text": " TODO ",
+			"color": "black",
+			"fontWeight": "bold",
+			"border": "2px solid #F6E05E",
+			"backgroundColor": "#F6E05E",
+			"overviewRulerColor": "#F6E05E"
+		},
+		{
+			"text": " TOFIX ",
+			"color": "white",
+			"fontWeight": "bold",
+			"border": "2px solid #E53E3E",
+			"backgroundColor": "#E53E3E",
+			"overviewRulerColor": "grey"
+		},
+		{
+			"text": " BUG ",
+			"color": "white",
+			"fontWeight": "bold",
+			"border": "2px solid #E53E3E",
+			"backgroundColor": "#E53E3E",
+			"overviewRulerColor": "grey"
+		},
+		{
+			"text": " DUCKTAPE ",
+			"border": "2px solid #F6E05E",
+			"fontWeight": "bold",
+			"color": "#F6E05E",
+			"backgroundColor": "none",
+			"overviewRulerColor": "grey"
+		},
+		{
+			"text": " DELETE ",
+			"border": "2px solid #ff0000",
+			"fontWeight": "bold",
+			"color": "#ff0000",
+			"backgroundColor": "none",
+			"overviewRulerColor": "grey"
+		},
+		{
+			"text": " BAD ",
+			"border": "2px solid #ff0000",
+			"fontWeight": "bold",
+			"color": "#ff0000",
+			"backgroundColor": "none",
+			"overviewRulerColor": "grey"
+		},
+		{
+			"text": " CAUTION ",
+			"border": "2px solid #ff0000",
+			"fontWeight": "bold",
+			"color": "#ff0000",
+			"backgroundColor": "none",
+			"overviewRulerColor": "grey"
+		},
+		{
+			"text": " COOL! ",
+			"border": "2px solid #34D399",
+			"fontWeight": "bold",
+			"color": "#34D399",
+			"backgroundColor": "none",
+			"overviewRulerColor": "grey"
+		},
+		{
+			"text": " GOOD ",
+			"border": "2px solid #34D399",
+			"fontWeight": "bold",
+			"color": "#34D399",
+			"backgroundColor": "none",
+			"overviewRulerColor": "grey"
+		},
+		{
+			"text": " BEST ",
+			"border": "2px solid #34D399",
+			"fontWeight": "bold",
+			"color": "black",
+			"backgroundColor": "#34D399",
+			"overviewRulerColor": "grey"
+		},
+		{
+			"text": " SVELTE ",
+			"border": "2px solid #ff3e00",
+			"fontWeight": "bold",
+			"color": "#ffffff",
+			"backgroundColor": "#ff3e00",
+			"overviewRulerColor": "grey"
+		},
+		{
+			"text": " SVELTEKIT ",
+			"border": "2px solid #ff3e00",
+			"fontWeight": "bold",
+			"color": "#ffffff",
+			"backgroundColor": "#ff3e00",
+			"overviewRulerColor": "grey"
+		},
+		{
+			"text": " CSR ONLY ",
+			"border": "2px solid #ff3e00",
+			"fontWeight": "bold",
+			"color": "#ffffff",
+			"backgroundColor": "none",
+			"overviewRulerColor": "grey"
+		},
+		{
+			"text": " THREE ",
+			"border": "2px solid #000000",
+			"fontWeight": "bold",
+			"color": "#000000",
+			"backgroundColor": "#ffffff",
+			"overviewRulerColor": "grey"
+		},
+		{
+			"text": " EXCLUDED ",
+			"border": "2px solid #9CA3AF",
+			"fontWeight": "bold",
+			"color": "#9CA3AF",
+			"backgroundColor": "none",
+			"overviewRulerColor": "grey"
+		},
+		{
+			"text": " CUSTOM ",
+			"border": "2px solid #ff3e00",
+			"fontWeight": "bold",
+			"color": "#ffffff",
+			"backgroundColor": "#000000",
+			"overviewRulerColor": "grey"
+		},
+		{
+			"text": " IMPORTANT ",
+			"border": "2px solid #F6E05E",
+			"fontWeight": "bold",
+			"color": "#F6E05E",
+			"backgroundColor": "none",
+			"overviewRulerColor": "grey"
+		},
+		{
+			"text": " VERY IMPORTANT ",
+			"border": "2px solid #FCD34D",
+			"fontWeight": "bold",
+			"color": "#FCD34D",
+			"backgroundColor": "none",
+			"overviewRulerColor": "grey"
+		},
+		{
+			"text": " AS EXPECTED ",
+			"border": "2px solid #00ff00",
+			"fontWeight": "bold",
+			"color": "#00ff00",
+			"backgroundColor": "none",
+			"overviewRulerColor": "grey"
+		},
+		{
+			"text": " REACTIVE STATEMENT ",
+			"border": "2px solid #00ff00",
+			"fontWeight": "bold",
+			"color": "#00ff00",
+			"backgroundColor": "none",
+			"overviewRulerColor": "grey"
+		},
+		{
+			"text": " ALL BEFORE / AFTER ",
+			"border": "2px solid #00ff00",
+			"fontWeight": "bold",
+			"color": "#00ff00",
+			"backgroundColor": "none",
+			"overviewRulerColor": "grey"
+		},
+		{
+			"text": " PARENT BEFORE / AFTER ",
+			"border": "2px solid #00ff00",
+			"fontWeight": "bold",
+			"color": "#00ff00",
+			"backgroundColor": "none",
+			"overviewRulerColor": "grey"
+		},
+		{
+			"text": " MAIN BEFORE / AFTER ",
+			"border": "2px solid #00ff00",
+			"fontWeight": "bold",
+			"color": "#00ff00",
+			"backgroundColor": "none",
+			"overviewRulerColor": "grey"
+		},
+		{
+			"text": " X REACTIVE STATEMENT ",
+			"border": "2px solid #ff0000",
+			"fontWeight": "bold",
+			"color": "#ff0000",
+			"backgroundColor": "none",
+			"overviewRulerColor": "grey"
+		},
+		{
+			"text": " X CHILD BEFORE / AFTER ",
+			"border": "2px solid #ff0000",
+			"fontWeight": "bold",
+			"color": "#ff0000",
+			"backgroundColor": "none",
+			"overviewRulerColor": "grey"
+		},
+		{
+			"text": " UNEXPECTED ",
+			"border": "2px solid #ff0000",
+			"fontWeight": "bold",
+			"color": "#ff0000",
+			"backgroundColor": "none",
+			"overviewRulerColor": "grey"
+		},
+		{
+			"text": " ACCESSORS BUG ",
+			"border": "2px solid #ff0000",
+			"fontWeight": "bold",
+			"color": "#ff0000",
+			"backgroundColor": "none",
+			"overviewRulerColor": "grey"
+		},
+
+		{
+			"text": " FAST ",
+			"border": "2px solid #84CC16",
+			"fontWeight": "bold",
+			"color": "#84CC16",
+			"backgroundColor": "none",
+			"overviewRulerColor": "grey"
+		},
+		{
+			"text": " FASTER ",
+			"border": "2px solid #BEF264",
+			"fontWeight": "bold",
+			"color": "#BEF264",
+			"backgroundColor": "none",
+			"overviewRulerColor": "grey"
+		},
+		{
+			"text": " SLOW ",
+			"border": "2px solid #EF4444",
+			"fontWeight": "bold",
+			"color": "#EF4444",
+			"backgroundColor": "none",
+			"overviewRulerColor": "grey"
+		},
+		{
+			"text": " PERFORMANCE ",
+			"border": "2px solid #D946EF",
+			"fontWeight": "bold",
+			"color": "#D946EF",
+			"backgroundColor": "none",
+			"overviewRulerColor": "grey"
+		},
+		{
+			"text": " RECONSIDER ",
+			"border": "2px solid #F59E0B",
+			"color": "#F59E0B",
+			"fontWeight": "bold",
+			"backgroundColor": "none",
+			"overviewRulerColor": "grey"
+		},
+		{
+			"text": " WHY? ",
+			"color": "#D69E2E",
+			"border": "2px solid #D69E2E",
+			"backgroundColor": "none",
+			"overviewRulerColor": "grey"
+		},
+		{
+			"text": " ANSWER ",
+			"border": "2px solid #2F855A",
+			"color": "#2F855A",
+			"backgroundColor": "none",
+			"overviewRulerColor": "grey"
+		},
+		{
+			"text": " INCONSISTENCY ",
+			"border": "2px solid #975A16",
+			"color": "#1A202C",
+			"fontWeight": "bold",
+			"backgroundColor": "#975A16",
+			"overviewRulerColor": "grey"
+		},
+		{
+			"text": " DEPRECATED ",
+			"border": "2px solid #9CA3AF",
+			"fontWeight": "bold",
+			"color": "#9CA3AF",
+			"backgroundColor": "none",
+			"overviewRulerColor": "grey"
+		},
+		{
+			"text": " CANVAS Component POINTER Event -> SHADOW DOM Event ",
+			"border": "2px solid #ffffff",
+			"fontWeight": "normal",
+			"color": "#ffffff",
+			"backgroundColor": "none",
+			"overviewRulerColor": "grey",
+			"borderRadius": "6px"
+		},
+		{
+			"text": " GLOBAL Keyboard Event -> CANVAS Component Keyboard Event ",
+			"border": "2px solid #ffffff",
+			"fontWeight": "normal",
+			"color": "#ffffff",
+			"backgroundColor": "none",
+			"overviewRulerColor": "grey",
+			"borderRadius": "6px"
+		},
+		{
+			"text": " NATIVE DOM / SHADOW DOM Event ",
+			"border": "2px solid #ffffff",
+			"fontWeight": "normal",
+			"color": "#ffffff",
+			"backgroundColor": "none",
+			"overviewRulerColor": "grey",
+			"borderRadius": "6px"
+		},
+		{
+			"text": " SHADOW DOM Event LISTENER -> SHADOW DOM Event HANDLER ",
+			"border": "2px solid #fde047",
+			"fontWeight": "normal",
+			"color": "#ffffff",
+			"backgroundColor": "none",
+			"overviewRulerColor": "grey",
+			"borderRadius": "6px"
+		},
+		{
+			"text": " POINTER Event ",
+			"border": "2px solid #ffffff",
+			"fontWeight": "bold",
+			"color": "#000000",
+			"backgroundColor": "#ffffff",
+			"overviewRulerColor": "grey",
+			"borderRadius": "6px"
+		},
+		{
+			"text": " FOCUS Event ",
+			"border": "2px solid #e879f9",
+			"fontWeight": "bold",
+			"color": "#000000",
+			"backgroundColor": "#e879f9",
+			"overviewRulerColor": "grey",
+			"borderRadius": "6px"
+		},
+		{
+			"text": " KEYBOARD Event ",
+			"border": "2px solid #22d3ee",
+			"fontWeight": "bold",
+			"color": "#000000",
+			"backgroundColor": "#22d3ee",
+			"overviewRulerColor": "grey",
+			"borderRadius": "6px"
+		},
+		{
+			"text": " WHEEL Event ",
+			"border": "2px solid #d1d5db",
+			"fontWeight": "bold",
+			"color": "#000000",
+			"backgroundColor": "#d1d5db",
+			"overviewRulerColor": "grey",
+			"borderRadius": "6px"
+		},
+		{
+			"text": " SHADOW DOM Event HANDLER -> ",
+			"border": "2px solid #fde68a",
+			"fontWeight": "normal",
+			"color": "#ffffff",
+			"backgroundColor": "none",
+			"overviewRulerColor": "grey",
+			"borderRadius": "6px"
+		},
+		{
+			"text": " DISPATCH Component Event IMMEDIATELY / QUEUE ",
+			"border": "2px solid #a3e635",
+			"fontWeight": "normal",
+			"color": "#ffffff",
+			"backgroundColor": "none",
+			"overviewRulerColor": "grey",
+			"borderRadius": "6px"
+		},
+		{
+			"text": " RENDER EVENT interaction_2 ",
+			"border": "2px solid #ff3e00",
+			"fontWeight": "normal",
+			"color": "#ffffff",
+			"backgroundColor": "none",
+			"overviewRulerColor": "grey",
+			"borderRadius": "6px"
+		},
+		{
+			"text": " LISTENER MANAGEMENT ",
+			"border": "2px solid #ffff00",
+			"fontWeight": "bold",
+			"color": "#000000",
+			"backgroundColor": "#ffff00",
+			"overviewRulerColor": "grey",
+			"borderRadius": "6px"
+		},
+		{
+			"text": " LISTENER OPTIONS AND MODIFIERS ",
+			"border": "2px solid #ffff00",
+			"fontWeight": "bold",
+			"color": "#000000",
+			"backgroundColor": "#ffff00",
+			"overviewRulerColor": "grey",
+			"borderRadius": "6px"
+		},
+		{
+			"text": " CANCEL OR STOP PROPAGATION ",
+			"border": "2px solid #ffff00",
+			"fontWeight": "bold",
+			"color": "#000000",
+			"backgroundColor": "#ffff00",
+			"overviewRulerColor": "grey",
+			"borderRadius": "6px"
+		},
+		{
+			"text": " REMOVING AND UNREGISTERING ",
+			"border": "2px solid #ffff00",
+			"fontWeight": "bold",
+			"color": "#000000",
+			"backgroundColor": "#ffff00",
+			"overviewRulerColor": "grey",
+			"borderRadius": "6px"
+		},
+		{
+			"text": " ADDING AND REGISTERING ",
+			"border": "2px solid #ffff00",
+			"fontWeight": "bold",
+			"color": "#000000",
+			"backgroundColor": "#ffff00",
+			"overviewRulerColor": "grey",
+			"borderRadius": "6px"
+		},
+		{
+			"text": " ALWAYS ",
+			"fontWeight": "bold",
+			"color": "#000000",
+			"backgroundColor": "#a3e635",
+			"overviewRulerColor": "grey"
+		},
+		{
+			"text": " AUTO ",
+			"border": "2px solid #a3e635",
+			"fontWeight": "bold",
+			"color": "#a3e635",
+			"backgroundColor": "none",
+			"overviewRulerColor": "grey"
+		},
+		{
+			"text": " CREATION ",
+			"border": "2px solid fuchsia",
+			"fontWeight": "normal",
+			"color": "#ffffff",
+			"backgroundColor": "none",
+			"overviewRulerColor": "grey",
+			"borderRadius": "6px"
+		},
+		{
+			"text": " INJECTION ",
+			"border": "2px solid white",
+			"fontWeight": "normal",
+			"color": "fuchsia",
+			"backgroundColor": "none",
+			"overviewRulerColor": "grey",
+			"borderRadius": "6px"
+		},
+		{
+			"text": " INITIALIZATION ",
+			"border": "2px solid #ffff00",
+			"fontWeight": "bold",
+			"color": "#000000",
+			"backgroundColor": "#ffff00",
+			"overviewRulerColor": "grey",
+			"borderRadius": "6px"
+		},
+		{
+			"text": " ON ",
+			"border": "2px solid #ffff00",
+			"fontWeight": "bold",
+			"color": "#ffff00",
+			"backgroundColor": "none",
+			"overviewRulerColor": "grey",
+			"borderRadius": "6px"
+		},
+		{
+			"text": " ONCE ",
+			"border": "2px solid #ffff00",
+			"fontWeight": "bold",
+			"color": "#000000",
+			"backgroundColor": "#ffff00",
+			"overviewRulerColor": "grey",
+			"borderRadius": "6px"
+		},
+		{
+			"text": " AFTER ",
+			"border": "2px solid #ffff00",
+			"fontWeight": "bold",
+			"color": "#ffff00",
+			"backgroundColor": "none",
+			"overviewRulerColor": "grey",
+			"borderRadius": "6px"
+		},
+		{
+			"text": " GEOMETRY ",
+			"border": "2px solid #ffff00",
+			"fontWeight": "bold",
+			"color": "#ffff00",
+			"backgroundColor": "none",
+			"overviewRulerColor": "grey",
+			"borderRadius": "6px"
+		},
+		{
+			"text": " MATERIAL ",
+			"border": "2px solid #ffff00",
+			"fontWeight": "bold",
+			"color": "#ffff00",
+			"backgroundColor": "none",
+			"overviewRulerColor": "grey",
+			"borderRadius": "6px"
+		}
+	]
+}
